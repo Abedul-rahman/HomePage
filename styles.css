@@ -91,10 +91,11 @@ nav img{
     cursor:pointer;
 }
 .get:hover{
+    border-radius: 30px;
     border:1px solid  #020f66;
     background:  #020f66;
     transition:0.5s;
-    box-shadow:20px;
+    box-shadow: 0 0 10px white;
 }
 @media (max-width: 700px){
     .text-box h1{
