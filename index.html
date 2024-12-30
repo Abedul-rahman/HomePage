@@ -1,122 +1,100 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
 <head>
-    <title>JU Halls</title>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
 <body>
-<section class="header">
-    <nav>
-        <a href="index.html"><img src="University_of_Jordan_Logo.svg.png" class="logo"></a>
-        <div class="nav-links">
-        <ul>
-<li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-<li><a href="#abouto">About</a></li>
-<li><a href="https://abedul-rahman.github.io/login_page/#">Login</a></li>
-</ul>
-</div>
-</section>
-<section>
-<div class="text-box">
-    <h1>Welcome To JU Halls</h1>
-    <p>Login now and schedule your lecture,event,group study,etc...<br>And explore our amazing services.</p>
-    <a class="get" href="https://abedul-rahman.github.io/login_page/#">Login</a>
-</div>
-</section>
-</nav>
-</header>
-<section class="about">
-<h1 id="serv">JU Halls Services</h1>
-<p>Welcome to JU Halls, your dedicated platform for scheduling and reserving university halls with Simplicity.<br> Our goal is to offer you an easy and effective way of managing hall bookings at the University of Jordan for lectures, events, and study groups.
-   <br> The primary services we offer:</p>
-<div class="p1">
-<div class="q1">
-    <h3>Real-Time Hall Availability</h3>
-    <p>You can view up to date schedules for all university halls, ensuring transparency and efficiency in bookings.</p>
-</div>
-<div class="q1">
-    <h3>Customized Hall Preferences</h3>
-    <p>You can filter halls based on capacity, equipment (e.g., projectors, audio systems), and location within the university.</p>
-</div>
-<div class="q1">
-    <h3>Booking History and Management</h3>
-    <p>You can to view and manage their past and upcoming bookings, including the ability to modify or cancel reservations.</p>
-</div>
-</div>
-</section>
-<section>
-<div  class="aboutus">
-    <h1 id="abouto">About Us</h1>
-    <div class="pos">
-        <div class="content">
-        <h2>Who We Are</h2>
-        <p>JU Halls is the official hall scheduling and reservation platform for the University of Jordan. We are dedicated to simplifying the process of booking university halls, ensuring that students, faculty, and staff can manage their events effortlessly.</p>
-
-    
-        <h2>What We Do</h2>
-        <p>Our website offers a smooth way to reserve and schedule university halls.</p>
-    
-    
-        <h2>Our Vision</h2>
-        <p>At JU Halls, we think that both academic and social success are facilitated by effective administration of university resources. Our goal is to offer a platform that encourages cooperation, innovation, and achievement.</p>
-</div>
-<div class="A">
-    <img src="about.jpg" alt="About Us">
-</div>
-</div>
+    <aside class="sidebar">
+        <div class="logo"><img src="logo/uni icon 2.png" alt=""> <span>JU Hallls</span></div>
+        <div class="pages">
+            <a href=""> <div><img src="logo/dashboard.png" > <span>Dashboard</span></div></a>
+            <a href="" class="active"><div><img src="logo/reservation.png"> <span>Reservations</span></div></a>
+            <a href=""><div><img src="logo/pie-chart.png"> <span>Reports</span></div></a>
+        <a href=""><div><img src="logo/history.png" > <span>History</span></div></a>
+        <a href=""><div><img src="logo/bxs-door-open.svg" > <span>Halls</span></div></a>
+        <a href=""><div><img src="logo/bxs-user.svg" > <span>Users</span></div></a>
+        <a href=""><div><img src="logo/bxs-edit.svg" > <span>Reserve a Hall</span></div></a>
     </div>
-</section>
-<footer>
-<div class="container">
-    <div class="footeer-con">
-        <h3>Contact Us</h3>
-        <p>Email:nassarjihad2018@gmail.com</p>
-        <p>Phone:+962778195623</p>
-        <p>Address: Aljubeiha, Amman, Jordan</p>
-    </div>
-        <div class="footeer-con">
-            <h3>Main Nav</h3>
-            <ul class="list">
-            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-            <li><a href="#abouto">About Us</a></li>
-            <li><a href="#serv">Services</a></li>
-        </ul>
+</aside>
+    
+    
+    <div class="container">
+        <nav class="navbar">
+                <ul class="menu">   
+                    <li><a href="">Home </a></li>
+                    <li><a href="">Our Facilities</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <div class="info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z"></path></svg>
+                    <img src="logo/image-daniel.jpg" title="profile "  alt="sup">
+                    <span>placeholder</span>
+                </div>
+            </nav>
+        <main class="content">
+       <div class="grid">
+        <form name="RESERVATION" action="" method="post">
+            <h2 class="form-title">MAKE A RESERVATION</h2>
+            <label > Faculty
+                <select id="faculty">
+                <option value="" selected disabled>----</option>
+                <option value="it">  الملك عبدالله الثاني لتكنولوجيا المعلومات</option>
+                </select>
+            </label>
+            <label>Floor
+                <select id="floor">
+                <option value="" selected disabled>----</option>
+                <option value="gf">GF</option>
+            </select>
+          </label>
+        </form>
+      <div class="hall-box">
+        <div class="hall1">
+            <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+            <h3>Hall:101</h3>
+            <p>Seats:80 </p>
         </div>
+            <div class="hall1">
+            <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+            <h3>Hall:102</h3>
+            <p>Seats:80 </p>
+        </div>
+            <div class="hall1">
+            <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+            <h3>Hall:103</h3>
+            <p>Seats:80</p>
+        </div>
+            <div class="hall1">
+            <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+            <h3>Hall:104</h3>
+            <p>Seats:80 </p>
+        </div>
+        <div class="hall1">
+        <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+        <h3>Hall:105</h3>
+        <p>Seats:80 </p>
+    </div>
+    <div class="hall1">
+        <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+        <h3>Hall:106</h3>
+        <p>Seats:80 </p>
+    </div>
+    <div class="hall1">
+        <img src="juemptyclass.jpg" height="150"width="200" alt="hall"/>
+        <h3>Hall:107</h3>
+        <p>Seats: 80</p>
+    </div>
 </div>
-<div class="bottom-bar">
-    <p>&copy;2025 JU Halls .All right reserved</p>
-</div>
-</footer>
+
+      </div>
+
+        
+    </div>
+        </main>
+
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
